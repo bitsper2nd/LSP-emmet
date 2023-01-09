@@ -4,11 +4,11 @@ import os
 import sublime
 
 
-class LspEmmet(NpmClientHandler):
+class LspEmmetls(NpmClientHandler):
     package_name = __package__
     server_directory = 'language-server'
     server_binary_path = os.path.join(
-        server_directory, 'emmets', 'server.js')
+        server_directory, 'out', 'server.js')
 
 @classmethod
 def minimum_node_version(cls) -> Tuple[int, int, int]:
@@ -16,9 +16,9 @@ def minimum_node_version(cls) -> Tuple[int, int, int]:
        return (14, 0, 0)
 
 def plugin_loaded():
-    LspEmmet.setup()
+    LspEmmetls.setup()
 
 
 def plugin_unloaded():
-    LspEmmet.cleanup()
+    LspEmmetls.cleanup()
 

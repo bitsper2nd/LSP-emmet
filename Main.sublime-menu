@@ -16,11 +16,11 @@
                 "id": "lsp-servers",
                 "children": [
                   {
-                    "caption": "LSP-emmet",
+                    "caption": "LSP-emmet-ls",
                     "command": "edit_settings",
                     "args": {
-                      "base_file": "${packages}/LSP-emmet/LSP-emmet.sublime-settings",
-                      "default": "// Settings in here override those in \"LSP-emmet/LSP-emmet.sublime-settings\"\n\n{\n\t$0\n}\n",
+                      "base_file": "${packages}/LSP-emmet-ls/LSP-emmet-ls.sublime-settings",
+                      "default": "// Settings in here override those in \"LSP-emmet-ls/LSP-emmet-ls.sublime-settings\"\n\n{\n\t$0\n}\n",
                     },
                   },
                 ],

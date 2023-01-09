@@ -1,8 +1,0 @@
-{
-    "command": [
-        "${node_bin}",
-        "${server_path}",
-        "--stdio"
-    ],
-    "selector": "text.html.basic | source.css | source.scss | source.js | source.js.react | source.ts | source.ts.react | source.haml | text.xml | source.xsl | source.pug | source.slim | source.sass | source.stylus | source.less | source.sss | source.hbs | source.handlebars"
-}
