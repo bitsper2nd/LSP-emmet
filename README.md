@@ -2,7 +2,7 @@
 
 Emmet server based on LSP and official emmet library.
 
-Provided through [Emmets](https://github.com/pedro757/emmet).
+Provided through [Emmet-ls](https://github.com/aca/emmet-ls).
 
 ### Installation
 
@@ -29,5 +29,5 @@ There are some ways to configure the package and the language server.
 - From the command palette `Preferences: LSP-emmet-ls Settings`
 
 ### Acknowledgments
-- Thank you [Aca](https://github.com/aca/emmet-ls) for making this language server
+- Thank you [Aca](https://github.com/aca) for making this language server
 - Thank you [Jack Cherng](https://github.com/jfcherng) for providing a base for this plugin
